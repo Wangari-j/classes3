@@ -2,6 +2,9 @@ class Employee:
     empName = "" 
     empAge = 0
 
+    def greetings(self):
+        print("Hello")
+
 empName1 = Employee()
 empName2 = Employee()
 empName3 = Employee()
@@ -19,4 +22,5 @@ empName2.empAge = 25
 empName3.empAge = 27
 print(empName1.empAge, empName2.empAge, empName3.empAge)
 
+empName1.greetings()
 
